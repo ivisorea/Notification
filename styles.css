@@ -1,0 +1,30 @@
+body, html{
+    background-color: rgb(47, 47, 184);
+    padding: 1rem;
+}
+
+.parent{
+    position: relative;
+}
+.text-notification{
+    color: grey;
+   font-size: 5rem;
+   position: absolute;
+   z-index: 1;
+}
+
+.red-circle-notification{
+    background-color: rgb(197, 36, 7);
+    color: white;
+    min-height: 2rem;
+    min-width: 2rem;
+    border-radius: 50%;
+    display: inline-block; 
+    text-align: center;
+    padding: 0.24rem;
+    position: absolute;
+    font-size: 1rem;
+    z-index: 2;
+    left: 2.8rem;
+}
+
